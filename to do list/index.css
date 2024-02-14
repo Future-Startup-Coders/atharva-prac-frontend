@@ -1,0 +1,46 @@
+body{
+    /* background-color: rgba(224, 90, 90, 0.2); */
+    color: wheat;
+    font-size: 1.25rem;
+    background: linear-gradient(60deg ,rgb(56, 28, 214),rgb(60,22, 220));
+}
+
+label{
+    font-size: inherit;
+}
+
+form{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+     gap: 10px;
+    width: 65%;
+    height:auto ;
+    margin: auto;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid wheat;
+    font-size: 1.15rem;
+    font-style: bold;
+
+}
+
+button{
+    padding:  5px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table{
+    width: 65%;
+    margin: auto;
+  text-align: center;    
+}
+
+
+
