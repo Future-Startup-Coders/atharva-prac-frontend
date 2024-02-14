@@ -309,4 +309,3 @@ console.log("Most centuries: "+world_cup.Best_performances_of_WC2023.Most_centur
 console.log("Most Catches: "+world_cup.Best_performances_of_WC2023.Most_Catches)
 console.log("Most wins: "+world_cup.Best_performances_of_WC2023.Most_wins)
 console.log("**************************************************************")
-
