@@ -1,8 +1,8 @@
 body{
     /* background-color: rgba(224, 90, 90, 0.2); */
     color: wheat;
-    font-size: 1.25rem;
-    background: linear-gradient(60deg ,rgb(56, 28, 214),rgb(60,22, 220));
+    font-size: 19px;
+    background-color:rgb(89, 154, 227);
 }
 
 label{
@@ -23,14 +23,17 @@ form{
 input{
     padding: 10px;
     border: 1px solid wheat;
-    font-size: 1.15rem;
+    font-size: 20px;
     font-style: bold;
+    margin-top: 59px;
+    margin-left: 43px;
+    border-radius: 28px;
 
 }
 
 button{
     padding:  5px;
-    font-size: 1.25rem;
+    font-size: 20px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
