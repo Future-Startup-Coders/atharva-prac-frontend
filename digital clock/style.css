@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: wheat;
+    width: 50%;
+}
+
+
+.heading{
+    background: mediumslateblue;
+    height: 41px;
+    width: 170px;
+    margin-top: 80px;
+    margin-left: 648px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* font-size: 25px; */
+    border-radius: 15px;
+    
+    /* top: 50px;
+    left: 50%; */
+
+}
+.image2{
+    margin-left: 967px;
+    margin-top: 60px;
+}
+.image1 {
+    width: 50%;
+    padding-left: 260px;
+    margin-top: -327px;
+}
+
+.clock {
+    width: 302px;
+    height: 155px;
+    position: absolute;
+    top: 150px;
+    left: 601px;
+    background: red;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 29px;
+    
+}
+
+
+.clock span{
+    font-size: 55px;
+    /* margin-top: -22px; */
+    /* display: flex;
+    align-items: 10px;
+    justify-content: center; */
+    margin-top: 34px;
+    width: 48px;
+    text-align: center;
+    position: relative;
+}
+.clock span::after{
+    
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    left: 50%;
+   
+
+}
+#hrs::after{
+    content: 'HOURS';
+}
+#min::after{
+    content: 'MIN';
+}
+#sec::after{
+    content: 'SEC';
+}
