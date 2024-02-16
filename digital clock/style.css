@@ -1,14 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgba(134, 34, 3, 0.881);
     color: wheat;
     width: 50%;
 }
 
 
 .heading{
-    background: mediumslateblue;
+    background: rgba(4, 94, 79, 0.808);
     height: 41px;
     width: 170px;
     margin-top: 80px;
@@ -40,7 +40,7 @@ body{
     position: absolute;
     top: 150px;
     left: 601px;
-    background: red;
+    background: rgba(3, 105, 11, 0.692);
     display: flex;
     align-items: flex-start;
     justify-content: center;
