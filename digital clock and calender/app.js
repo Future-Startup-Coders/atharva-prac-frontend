@@ -57,11 +57,12 @@ clockDiv.appendChild(col1);
 clockDiv.appendChild(secSpan);
 
 
-document.body.appendChild(containerDiv);
 containerDiv.appendChild(headingDiv);
 containerDiv.appendChild(image2Div);
 containerDiv.appendChild(image1Div);
 containerDiv.appendChild(clockDiv);
+document.body.appendChild(containerDiv);
+
 
 
 const hours = document.getElementById('hrs');
