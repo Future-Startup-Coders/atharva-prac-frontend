@@ -9,7 +9,6 @@ const cal={
     day:"sun",
     month:"jan",
     year:"2020"
-
 }
 function updateTime(){
     const weekdays=["sun","mon","tue","wed","thur","fri","sat"];
